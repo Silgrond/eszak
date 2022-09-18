@@ -1,4 +1,4 @@
-baseurl                  = "https://www.eszakosvenyein.hu"           # Your domain name
+baseurl                  = "/"           # Your domain name
 languageCode             = "en-us"
 defaultContentLanguage   = "en"
 isMultilingual           = false
