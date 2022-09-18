@@ -1,0 +1,14 @@
+{{ define "section_content" }}
+<article class="flex-container">
+    {{ .Content }}
+</article>
+<nav role="navigation">
+    <ul>
+        {{ range .Data.Pages }}
+        <li>
+            {{ .Render "summary" }}
+        </li>
+        {{ end }}
+    </ul>
+</nav>
+{{ end }}

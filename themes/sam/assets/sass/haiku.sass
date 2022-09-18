@@ -1,0 +1,48 @@
+.haiku
+  width: auto
+  margin: 0 auto
+  padding: 1rem
+  font-weight: 500
+
+
+.haiku blockquote.quote
+    position: relative
+    text-align: center
+    padding: 1rem 1.2rem
+    width: 100%  /* create space for the quotes */
+    color: $white
+    margin: 1rem auto 2rem
+
+
+.haiku blockquote.HU
+    background: linear-gradient(to right, $bambusz 4px, transparent 4px) 0% 0%, linear-gradient(to bottom, $bambusz 4px, transparent 4px) 0% 0%, linear-gradient(to left, $bambusz 4px, transparent 4px) 100% 100%, linear-gradient(to top, $bambusz 4px, transparent 4px) 100% 100%
+    background-repeat: no-repeat
+    background-size: 25px 40px
+    border-radius: 0px
+
+
+
+
+/* -- create the quotation marks -- */
+.haiku blockquote.quote:before,
+.haiku blockquote.quote:after
+    // font-family: FontAwesome
+    position: absolute
+    color: $bambusz
+    font-size: 7rem
+    opacity: 0.3
+
+.haiku blockquote.HU:before
+    font-family: "Helvetica Neue","Helvetica"
+    content: "„"
+    margin-right: -20px
+    bottom: 1.2rem
+    left: 0rem
+
+.haiku blockquote.HU:after
+    font-family: "Helvetica Neue","Helvetica"
+    content: "”"
+    margin-left: -20px
+    right: 0rem
+    top: 2.4rem
+    bottom: auto
