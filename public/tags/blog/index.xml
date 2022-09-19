@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Észak Ösvényein</title>
+    <link>/tags/blog/</link>
+    <description>Recent content in blog on Észak Ösvényein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Aug 2022 16:12:53 +0200</lastBuildDate><atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basó</title>
+      <link>/posts/idezet-uj/</link>
+      <pubDate>Sat, 06 Aug 2022 16:12:53 +0200</pubDate>
+      
+      <guid>/posts/idezet-uj/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+  </channel>
+</rss>
