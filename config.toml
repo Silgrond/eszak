@@ -1,14 +1,14 @@
-baseurl                  = "/"           # Your domain name
-languageCode             = "en-us"
-defaultContentLanguage   = "en"
+baseurl                  = "https://eszakosvenyein.hu/"           # Your domain name
+languageCode             = "hu-hu"
+defaultContentLanguage   = "hu"
 isMultilingual           = false
-title                    = "Észak Ösvényein"
+title                    = "Észak ösvényein"
 theme                  = "sam"                      # install theme locally (git clone or submodule)
 pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
 pygmentsCodefences       = true
 googleAnalyticsID        = "G-8KK4WVGQV2"                               # Tracking code, eg. "UA-111111111-1"
 summaryLength = 5
-disqusShortname = 'seseragisan'
+disqusShortname = 'eszakosvenyein-hu'
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
@@ -34,7 +34,7 @@ disqusShortname = 'seseragisan'
     overlay = "rgba(0, 0, 0, 0.4)" # optional
 
 [[params.mainMenu]]
-    link = "posts"
+    link = "blog"
     text = "Észak ösvényein"
 
 [[params.mainMenu]]
