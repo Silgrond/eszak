@@ -2,9 +2,6 @@
 <html>
 
 <head>
-    {{ template "_internal/google_analytics.html" . }}
-    {{ template "_internal/google_analytics_async.html" . }}
-
     {{ block "head" . }}
     {{ partial "head.html" . }}
     {{ end }}
@@ -17,6 +14,7 @@
         {{ .Title | markdownify}}
         {{ end }}
     </title>
+        {{ template "_internal/google_analytics.html" . }}
 </head>
 
 <body>
