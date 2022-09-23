@@ -2,9 +2,8 @@
 <html>
 
 <head>
-    {{ if .Site.Params.GoogleAnalyticsID }}
-    {{ partial "analytics-gtag.html" . }}
-    {{ end }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ template "_internal/google_analytics_async.html" . }}
 
     {{ block "head" . }}
     {{ partial "head.html" . }}
