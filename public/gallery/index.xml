@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Japán &#39;17-18 on Észak Ösvényein</title>
-    <link>/gallery/</link>
-    <description>Recent content in Japán &#39;17-18 on Észak Ösvényein</description>
+    <title>Japán &#39;17-18 on Észak ösvényein</title>
+    <link>https://eszakosvenyein.hu/gallery/</link>
+    <description>Recent content in Japán &#39;17-18 on Észak ösvényein</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <language>hu-hu</language><atom:link href="https://eszakosvenyein.hu/gallery/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
