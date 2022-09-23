@@ -34,7 +34,7 @@ disqusShortname = 'eszakosvenyein-hu'
     overlay = "rgba(0, 0, 0, 0.4)" # optional
 
 [[params.mainMenu]]
-    link = "blog"
+    link = "posts"
     text = "Észak ösvényein"
 
 [[params.mainMenu]]

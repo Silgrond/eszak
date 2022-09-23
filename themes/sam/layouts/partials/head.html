@@ -6,6 +6,8 @@
 
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/opengraph.html" . }}
+{{ template "_internal/google_analytics.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}
 <!-- {{ template "_internal/google_analytics_async.html" . }} -->
 {{ if .HasShortcode "leaflet-map" }}
     {{ partial "leaflet-loader" . }}

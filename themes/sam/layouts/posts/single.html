@@ -18,8 +18,9 @@
     <article role="article">
         {{ .Content }}
     </article>
-    
-{{ template "_internal/disqus.html" . }}
+
+
+{{ template "disqus.html" . }}
 </div>
 {{ end }}
 
