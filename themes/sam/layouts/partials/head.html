@@ -7,6 +7,25 @@
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/opengraph.html" . }}
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+ {{ $ga := .Site.Params.GoogleAnalytics }}
+
+ <script>
+
+ window.dataLayer \= window.dataLayer || \[\];
+
+ function gtag(){dataLayer.push(arguments);}
+
+ gtag('js', new Date());
+
+ gtag('config', '{{ $ga }}');
+
+ </script>
+
+ <script async src\="https://www.googletagmanager.com/gtag/js?id={{ $ga }}"\></script>
+
+
 {{ if .HasShortcode "leaflet-map" }}
     {{ partial "leaflet-loader" . }}
 {{ end }}

@@ -223,6 +223,10 @@ nav {
   #haiku cite {
     text-align: center; }
 
+#disqus_thread {
+  display: block;
+  width: 100%; }
+
 article {
   width: 100%;
   line-height: 2em;
