@@ -4,6 +4,10 @@
 <!-- Google fonts-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
+{{ if hugo.IsProduction }}
+    {{ template "_internal/google_analytics.html" . }}
+{{ end }}
+
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/opengraph.html" . }}
 
